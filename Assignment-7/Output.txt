@@ -1,1 +1,59 @@
+=== Test 1: Example input (4 courses, 4 students) ===
+Courses (vertices): 4, Conflicts (edges): 3
+  C1 (2 students) conflicts with: C2, C3
+  C2 (2 students) conflicts with: C1, C3
+  C3 (2 students) conflicts with: C1, C2
+  C4 (1 students) conflicts with: none
 
+Algorithm comparison (number of exam slots):
+  Greedy        : 3  valid = true
+  Welsh-Powell  : 3  valid = true
+  DSATUR        : 3  valid = true
+
+Timetable using DSATUR with room allocation:
+Course   Time Slot  Students   Room    
+C1       Slot 1     2          R3      
+C4       Slot 1     1          R2      
+C2       Slot 2     2          R3      
+C3       Slot 3     2          R3      
+
+=== Test 2: 15 courses, 40 students, 2 courses each ===
+Courses (vertices): 15, Conflicts (edges): 34
+  C1 (9 students) conflicts with: C2, C3, C4, C5, C7, C10, C13
+  C2 (8 students) conflicts with: C1, C4, C9, C10, C13, C15
+  C3 (3 students) conflicts with: C1, C14, C15
+  C4 (6 students) conflicts with: C1, C2, C5, C6, C7
+  C5 (7 students) conflicts with: C1, C4, C7, C8, C11, C13
+  C6 (3 students) conflicts with: C4, C10, C11
+  C7 (7 students) conflicts with: C1, C4, C5, C12, C13, C15
+  C8 (4 students) conflicts with: C5, C11, C15
+  C9 (2 students) conflicts with: C2, C15
+  C10 (6 students) conflicts with: C1, C2, C6, C11, C13
+  C11 (6 students) conflicts with: C5, C6, C8, C10, C13
+  C12 (1 students) conflicts with: C7
+  C13 (8 students) conflicts with: C1, C2, C5, C7, C10, C11, C14
+  C14 (3 students) conflicts with: C3, C13, C15
+  C15 (7 students) conflicts with: C2, C3, C7, C8, C9, C14
+
+Algorithm comparison (number of exam slots):
+  Greedy        : 5  valid = true
+  Welsh-Powell  : 4  valid = true
+  DSATUR        : 4  valid = true
+
+Timetable using DSATUR with room allocation:
+Course   Time Slot  Students   Room    
+C1       Slot 1     9          R2      
+C15      Slot 1     7          R4      
+C11      Slot 1     6          R5      
+C12      Slot 1     1          R6      
+C13      Slot 2     8          R3      
+C4       Slot 2     6          R5      
+C8       Slot 2     4          R6      
+C3       Slot 2     3          R4      
+C9       Slot 2     2          R2      
+C2       Slot 3     8          R3      
+C5       Slot 3     7          R4      
+C6       Slot 3     3          R6      
+C14      Slot 3     3          R5      
+C7       Slot 4     7          R4      
+C10      Slot 4     6          R5      
