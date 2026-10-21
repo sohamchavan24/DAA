@@ -1,1 +1,21 @@
+=== Test 1: 5 cities (fuel-cost matrix, City 0 = depot) ===
+Cost matrix:
+  INF   20   30   10   11
+   15  INF   16    4    2
+    3    5  INF    2    4
+   19    6   18  INF    3
+   16    4    7   16  INF
 
+LC Branch & Bound result:
+  Minimum tour cost : 28
+  Optimal route     : 0 -> 3 -> 1 -> 4 -> 2 -> 0
+  Nodes generated   : 11, pruned : 6
+  Brute-force check : 28  (permutations = 24)
+
+=== Test 2: 10 random cities (seed = 1) ===
+LC Branch & Bound result:
+  Minimum tour cost : 254
+  Optimal route     : 0 -> 6 -> 7 -> 5 -> 1 -> 9 -> 8 -> 3 -> 4 -> 2 -> 0
+  Nodes generated   : 60, pruned : 48
+  Brute-force nodes would be about (N-1)! = 362880 complete tours
+  Brute-force check : 254
