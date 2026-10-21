@@ -1,54 +1,53 @@
 ============================================================
 INPUT: rating
 ============================================================
-Sort movies by (rating/year/popularity): 
+Sort movies by (rating/year/popularity):
 Top 10 movies sorted by rating:
-Once Upon a Time in Hollywood 14 | Rating: 10 | Year: 1993 | Popularity: 159845
-Back to the Future 1 | Rating: 10 | Year: 2004 | Popularity: 77490
-Oldboy 7 | Rating: 10 | Year: 2016 | Popularity: 131989
-Back to the Future 10 | Rating: 10 | Year: 1995 | Popularity: 522195
-Black Panther 5 | Rating: 10 | Year: 2017 | Popularity: 400764
-The Dark Knight 8 | Rating: 10 | Year: 1996 | Popularity: 252427
-Blade Runner 2049 3 | Rating: 9.9 | Year: 2015 | Popularity: 428368
-City of God 12 | Rating: 9.9 | Year: 1985 | Popularity: 705827
-Knives Out 7 | Rating: 9.9 | Year: 1994 | Popularity: 93191
-Blade Runner 2049 6 | Rating: 9.9 | Year: 1992 | Popularity: 554630
+Once Upon a Time in Hollywood | Rating: 10 | Year: 1993 | Popularity: 159845
+Back to the Future | Rating: 10 | Year: 2004 | Popularity: 77490
+Oldboy | Rating: 10 | Year: 2016 | Popularity: 131989
+Back to the Future | Rating: 10 | Year: 1995 | Popularity: 522195
+Black Panther | Rating: 10 | Year: 2017 | Popularity: 400764
+The Dark Knight | Rating: 10 | Year: 1996 | Popularity: 252427
+Blade Runner 2049 | Rating: 9.9 | Year: 2015 | Popularity: 428368
+City of God | Rating: 9.9 | Year: 1985 | Popularity: 705827
+Knives Out | Rating: 9.9 | Year: 1994 | Popularity: 93191
+Blade Runner 2049 | Rating: 9.9 | Year: 1992 | Popularity: 554630
 
 Sorted 1000 movies in 0.00015552 seconds.
 
 ============================================================
 INPUT: year
 ============================================================
-Sort movies by (rating/year/popularity): 
+Sort movies by (rating/year/popularity):
 Top 10 movies sorted by year:
-The Wolf of Wall Street 16 | Rating: 7.9 | Year: 2024 | Popularity: 281063
-Avengers: Infinity War 12 | Rating: 6.1 | Year: 2024 | Popularity: 786173
-Gladiator 9 | Rating: 4.9 | Year: 2024 | Popularity: 145947
-Parasite 5 | Rating: 6.1 | Year: 2024 | Popularity: 401513
-WALL·E 4 | Rating: 1.2 | Year: 2024 | Popularity: 422627
-Back to the Future 5 | Rating: 8 | Year: 2024 | Popularity: 575837
-A Beautiful Mind 16 | Rating: 5.7 | Year: 2024 | Popularity: 540292
-The Big Short 5 | Rating: 2.1 | Year: 2024 | Popularity: 684093
-Saving Private Ryan 7 | Rating: 6.1 | Year: 2024 | Popularity: 901489
-Pulp Fiction 16 | Rating: 1.5 | Year: 2024 | Popularity: 792116
+The Wolf of Wall Street | Rating: 7.9 | Year: 2024 | Popularity: 281063
+Avengers: Infinity War | Rating: 6.1 | Year: 2024 | Popularity: 786173
+Gladiator | Rating: 4.9 | Year: 2024 | Popularity: 145947
+Parasite | Rating: 6.1 | Year: 2024 | Popularity: 401513
+WALL·E | Rating: 1.2 | Year: 2024 | Popularity: 422627
+Back to the Future | Rating: 8 | Year: 2024 | Popularity: 575837
+A Beautiful Mind | Rating: 5.7 | Year: 2024 | Popularity: 540292
+The Big Short | Rating: 2.1 | Year: 2024 | Popularity: 684093
+Saving Private Ryan | Rating: 6.1 | Year: 2024 | Popularity: 901489
+Pulp Fiction | Rating: 1.5 | Year: 2024 | Popularity: 792116
 
 Sorted 1000 movies in 0.000145245 seconds.
 
 ============================================================
 INPUT: popularity
 ============================================================
-Sort movies by (rating/year/popularity): 
+Sort movies by (rating/year/popularity):
 Top 10 movies sorted by popularity:
-The Matrix 5 | Rating: 8.1 | Year: 2005 | Popularity: 998278
-Terminator 2: Judgment Day 8 | Rating: 5.7 | Year: 1992 | Popularity: 998171
-Up 1 | Rating: 5.8 | Year: 1987 | Popularity: 997800
-The Green Mile 10 | Rating: 7.2 | Year: 1993 | Popularity: 997248
-Goodfellas 5 | Rating: 5.1 | Year: 2021 | Popularity: 996126
-Knives Out 16 | Rating: 5.4 | Year: 1994 | Popularity: 994855
-The Dark Knight 3 | Rating: 6.1 | Year: 2004 | Popularity: 994798
-Saving Private Ryan 17 | Rating: 2.8 | Year: 2018 | Popularity: 993525
-The Empire Strikes Back 9 | Rating: 5.1 | Year: 2020 | Popularity: 993403
-1917 5 | Rating: 8.5 | Year: 1982 | Popularity: 992469
+The Matrix | Rating: 8.1 | Year: 2005 | Popularity: 998278
+Terminator 2: Judgment Day | Rating: 5.7 | Year: 1992 | Popularity: 998171
+Up | Rating: 5.8 | Year: 1987 | Popularity: 997800
+The Green Mile | Rating: 7.2 | Year: 1993 | Popularity: 997248
+Goodfellas | Rating: 5.1 | Year: 2021 | Popularity: 996126
+Knives Out | Rating: 5.4 | Year: 1994 | Popularity: 994855
+The Dark Knight | Rating: 6.1 | Year: 2004 | Popularity: 994798
+Saving Private Ryan | Rating: 2.8 | Year: 2018 | Popularity: 993525
+The Empire Strikes Back | Rating: 5.1 | Year: 2020 | Popularity: 993403
+1917 | Rating: 8.5 | Year: 1982 | Popularity: 992469
 
 Sorted 1000 movies in 0.000171334 seconds.
-
