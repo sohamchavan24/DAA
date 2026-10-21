@@ -1,1 +1,43 @@
+Truck capacity: 50 kg
 
+Item                Weight  Utility   Critical
+Medical Kit              8       90        Yes
+Drinking Water           15       70        Yes
+Food Packets             12       60        Yes
+Baby Formula              5       45        Yes
+Blankets                 10       40         No
+Tent                     20       50         No
+Torch Set                 3       20         No
+Power Tools              18       30         No
+
+=== Comparison of approaches (base utilities) ===
+Dynamic Programming : utility = 305
+  Items: Medical Kit, Drinking Water, Food Packets, Baby Formula, Blankets
+  Total weight used: 50 kg
+Brute Force         : utility = 305
+  Items: Medical Kit, Drinking Water, Food Packets, Baby Formula, Blankets
+  Total weight used: 50 kg
+Greedy (ratio)      : utility = 285
+  Items: Medical Kit, Food Packets, Baby Formula, Torch Set
+  Total weight used: 28 kg
+
+Work done for N = 8, W = 50:
+  Brute Force subsets checked : 256  (O(2^N))
+  DP table cells computed     : 400  (O(N*W))
+For N = 30, W = 1000:
+  Brute Force subsets : 1073741824
+  DP table cells      : 30000
+
+=== Priority for perishable / life-saving items (utility x 1.5) ===
+DP with priority    : utility = 437
+  Items: Medical Kit, Drinking Water, Food Packets, Baby Formula, Blankets
+  Total weight used: 50 kg
+
+=== Extension: multiple trucks (each 50 kg, loaded one after another) ===
+Truck 1: utility = 437
+  Items: Medical Kit, Drinking Water, Food Packets, Baby Formula, Blankets
+  Total weight used: 50 kg
+Truck 2: utility = 100
+  Items: Tent, Torch Set, Power Tools
+  Total weight used: 41 kg
+Left behind: None
