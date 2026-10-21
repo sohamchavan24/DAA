@@ -1,1 +1,7 @@
+Item selection (boat capacity = 100.0 kg):
 
+Taken FULLY: Medicine Kits | Weight:20.0 | Value:200.0
+Taken FULLY: Drinking Water | Weight:50.0 | Value:160.0
+Taken PARTIALLY: Food Packets | Fraction:0.75 | Weight taken:30.00 | Value gained:90.00
+
+Total utility value carried by the boat: 450.00
