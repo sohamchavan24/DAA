@@ -1,1 +1,35 @@
+Backward DP table (cost to reach sink L from each node):
 
+Node A (Stage 1) : cost = 15, next = E
+Node B (Stage 2) : cost = 7, next = G
+Node C (Stage 2) : cost = 9, next = F
+Node D (Stage 2) : cost = 16, next = G
+Node E (Stage 2) : cost = 13, next = G
+Node F (Stage 3) : cost = 7, next = J
+Node G (Stage 3) : cost = 5, next = J
+Node H (Stage 3) : cost = 8, next = J
+Node I (Stage 4) : cost = 4, next = L
+Node J (Stage 4) : cost = 2, next = L
+Node K (Stage 4) : cost = 7, next = L
+Node L (Stage 5) : cost = 0, next = -
+
+Minimum delivery cost from A to L: 15
+Optimal Route: A -> E -> G -> J -> L
+
+--- Real-time update 1: traffic jam on road G -> J (3 to 12) ---
+After traffic update:
+  Minimum cost from A to L : 16
+  Optimal route : A -> C -> F -> J -> L
+
+--- Real-time update 2: road closure F -> J and H -> K ---
+After road closures:
+  Minimum cost from A to L : 18
+  Optimal route : A -> B -> H -> J -> L
+
+--- Batch processing: several delivery requests, one DP pass ---
+Request from A to L : cost = 18, route = A -> B -> H -> J -> L
+Request from B to L : cost = 9, route = B -> H -> J -> L
+Request from C to L : cost = 12, route = C -> F -> I -> L
+Request from D to L : cost = 19, route = D -> G -> I -> L
+Request from E to L : cost = 16, route = E -> G -> I -> L
+Request from F to L : cost = 10, route = F -> I -> L
