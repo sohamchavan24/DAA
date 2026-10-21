@@ -1,1 +1,20 @@
+Shortest travel time from Ambulance (Node 0) to all junctions:
 
+Node 0 : 0 minutes
+Node 1 : 3 minutes
+Node 2 : 2 minutes
+Node 3 : 8 minutes
+Node 4 : 10 minutes
+Node 5 : 13 minutes
+Node 6 : 14 minutes
+
+Nearest Hospital: Node 5
+Minimum Travel Time: 13 minutes
+Optimal Route: 0 -> 2 -> 1 -> 3 -> 4 -> 5
+
+--- Simulating real-time traffic congestion update ---
+Updating road (0 -> 2) travel time from 2 to 15 minutes due to congestion...
+
+Updated Nearest Hospital: Node 5
+Updated Minimum Travel Time: 18 minutes
+Updated Optimal Route: 0 -> 1 -> 3 -> 4 -> 5
